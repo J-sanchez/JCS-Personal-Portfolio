@@ -19,7 +19,6 @@
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
-    z-index: 9999;
   }
 
   header h1 {
@@ -60,7 +59,7 @@
     border-radius: 15px;
     text-shadow: none;
   }
-
+  /*Hero*/
   .hero {
     background-image: url("../images/landscape.jpg");
     background-size: contain;
@@ -80,15 +79,9 @@
     width: 45%;
     margin: 2.1%;
     color: rgb(23, 97, 255);
-    font-size: 18px;
+    font-size: 25px;
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  }
-
-  .hero-cta h2{
-    font-style: italic;
-    font-size: 30px;
-    color: #012464;
   }
 
   .hero-statement{
@@ -100,8 +93,9 @@
     margin: 3.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    font-size: 30px;
   }
-
+/*About me Grid*/
   .About-Me-item {
     padding: 15px 0;
     border: none;
@@ -113,21 +107,17 @@
   }
 
   .About-Me-item.cancel {
-    writing-mode: vertical-lr;
+    writing-mode: sideways-rl;
     grid-column: 1;
     grid-row: 1 / -2;
-    transform: rotate(180deg);
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   .about-me_img{
-      width: 100%;
-      height: 70%;
+      width: 70%;
+      height: 25%;
       object-fit: cover;
-  }
-
- .About-Me-item.cancel {
-    font-size: 1.5rem;
-    font-weight: bold;
   }
 
   .About-Me-container {
@@ -157,3 +147,79 @@
     align-items: flex-start;
   }
   
+/*my work grid*/
+
+  .My-Work-item {
+    padding: 15px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .My-Work-item.cancel {
+    writing-mode: sideways-rl;
+    grid-column: 1;
+    grid-row: 1 / -2;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .My-Work_img1{
+    width: 85%;
+    height: 95%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.My-Work_img2{
+    width: 85%;
+    height: 95%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.My-Work_img3{
+    width: 60%;
+    height: 45%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+
+
+  .My-Work-container {
+    background:none;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr) fr;
+    border:none;
+    color:  #ffffff;
+    font-size: 1.2rem;
+    justify-items: start;
+  }
+
+  .My-Work-wrapper {
+    width: 100%;
+    background-color: grey;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .My-Work-item_2 {
+        padding: 15px 0;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-style: italic;
+    grid-column: 2 / span 1;
+  }
