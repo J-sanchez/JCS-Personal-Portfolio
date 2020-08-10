@@ -1,7 +1,10 @@
 # JCS-Personal-Portfolio
 
 #My First Portfolio
-- link to page: 
+- link to page: https://j-sanchez.github.io/JCS-Personal-Portfolio/.
+
+# Preview
+![](images/
 
 #Instructions
 GIVEN I need to sample a potential employee's previous work
