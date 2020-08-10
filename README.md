@@ -4,7 +4,7 @@
 - link to page: https://j-sanchez.github.io/JCS-Personal-Portfolio/.
 
 # Preview
-![](images/
+![MyPortfolio](..assets/images/myfirstportfolio.jpg)
 
 #Instructions
 GIVEN I need to sample a potential employee's previous work
