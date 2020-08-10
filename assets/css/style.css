@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
   body {
     /* more on this crazy alphanumerical value in a minute! */
@@ -18,7 +13,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: lightslategrey;
+    background-image: url("../images/landscape.jpg");
+    background-color: rgb(192, 206, 221);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -36,7 +32,7 @@
 
   header a {
     text-decoration: none;
-    color: #3b3e6d;
+    color: #b8b8b8;
   }
 
   header nav {
@@ -64,3 +60,100 @@
     border-radius: 15px;
     text-shadow: none;
   }
+
+  .hero {
+    background-image: url("../images/landscape.jpg");
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+
+  .hero-cta{
+    text-align: justify;
+    text-align-last: left;
+    width: 45%;
+    margin: 2.1%;
+    color: rgb(23, 97, 255);
+    font-size: 18px;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .hero-cta h2{
+    font-style: italic;
+    font-size: 30px;
+    color: #012464;
+  }
+
+  .hero-statement{
+    border: 3px solid #2f004b;
+    background-color: rgba(155, 26, 9, 0.8);
+    padding: 20px;
+    color: #b8b8b8;
+    width: 20%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+
+  .About-Me-item {
+    padding: 15px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .About-Me-item.cancel {
+    writing-mode: vertical-lr;
+    grid-column: 1;
+    grid-row: 1 / -2;
+    transform: rotate(180deg);
+  }
+
+  .about-me_img{
+      width: 100%;
+      height: 70%;
+      object-fit: cover;
+  }
+
+ .About-Me-item.cancel {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .About-Me-container {
+    background:none;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr)fr;
+    border:none;
+    color:  #ffffff;
+    font-size: 1.2rem;
+    justify-items: start;
+  }
+
+  .services {
+    background: #fce138;
+  }
+
+  .About-Me-wrapper {
+    width: 100%;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
