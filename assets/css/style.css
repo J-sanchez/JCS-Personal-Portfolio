@@ -223,3 +223,52 @@
         font-style: italic;
     grid-column: 2 / span 1;
   }
+
+  .contact {
+    background: #042131;
+  }
+
+  .contact h2 {
+    color: #ffffff;
+  }
+  .contact-info{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+
+  .contact-info iframe {
+    height: 400px;
+  }
+  
+  .contact-info div {
+    color: white;
+  }
+
+  .contact-info h3 {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    display: block;
+    text-align: center;
+  }
+  .contact-info a {
+    color: #ffffff;
+
+  }
+
+.footer{
+    font-size: 12px;
+}
