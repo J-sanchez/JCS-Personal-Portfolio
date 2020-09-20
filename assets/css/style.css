@@ -163,28 +163,62 @@
     justify-content: center;
     text-align: center;
     font-style: italic;
+    grid-column: 2 / span 2;
   }
+
+  .My-Work-item-2 {
+    padding: 15px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    grid-column: 2 / span 1;
+  }
+  .My-Work-item-3 {
+    padding: 15px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    grid-column: 3 / span 1;
+  }
+
+
+  .My-Work-item-4 {
+    padding: 15px 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+grid-column: 2 / 2;
+}
 
   .My-Work-item.cancel {
     writing-mode: sideways-rl;
     grid-column: 1;
-    grid-row: 1 / -2;
+    grid-row: 1 / -4;
     font-size: 1.5rem;
     font-weight: bold;
   }
 
   .My-Work_img1{
-    width: 85%;
+    width: 65%;
     height: 95%;
     object-fit: cover;
     justify-content: center;
 }
 
 .My-Work_img2{
-    width: 85%;
-    height: 95%;
+    width: 60%;
+    height: 45%;
     object-fit: cover;
-    justify-content: center;
+    justify-content: right;
 }
 
 .My-Work_img3{
@@ -192,6 +226,12 @@
     height: 45%;
     object-fit: cover;
     justify-content: center;
+}
+.My-Work_img4{
+  width: 60%;
+  height: 45%;
+  object-fit: cover;
+  justify-content: center;
 }
 
 
@@ -201,7 +241,7 @@
     width: 90%;
     display: grid;
     grid-template-columns: 1fr repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) fr;
+    grid-template-rows: repeat(2, 4fr) fr;
     border:none;
     color:  #ffffff;
     font-size: 1.2rem;
@@ -219,16 +259,7 @@
     align-items: flex-start;
   }
 
-  .My-Work-item_2 {
-        padding: 15px 0;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-style: italic;
-    grid-column: 2 / span 1;
-  }
+
 /*Contact Info*/
   .contact {
     background: #042131;
